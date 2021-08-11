@@ -5,6 +5,6 @@ Pepper is a discord bot created by our own hands which does various stuffs. Chec
 
 Pepper is running 24/7 in our servers. invite it on your discord server and experience it.
 
-Follow #pepper-announcements channel in https://discord.gg/A59KnRkspG server and get notified about stunning updates of pepper.
+Follow #announcements channel in https://discord.gg/DTpraCD9DH server and get notified about stunning updates of pepper.
 
 Add our bot in your discord server. Help us grow https://bit.ly/pepperthebot  
