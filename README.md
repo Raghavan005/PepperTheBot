@@ -6,4 +6,4 @@ Pepper is running 24/7 in our servers. invite it on your discord server and expe
 
 Follow #pepper-announcements channel in https://discord.gg/A59KnRkspG server and get notified about stunning updates of pepper.
 
-Add our bot in your discord server. Help us grow bit.ly/pepperthebot  
+Add our bot in your discord server. Help us grow https://bit.ly/pepperthebot  
