@@ -44,39 +44,6 @@ def todaysquotes():
 async def on_ready():
  print("Pepper On Fire")
  
-"""
-@client.event
-async def on_message(message):
- if message.author == client.user:
-  return
- 
- lower = message.content.lower()
- channel = message.channel.send
- mention = message.author.mention 
- startswith = message.content.startswith
- content = message.content
-
- if lower == "//hello" or lower == "//hi" or lower == "//hai" or lower == "//haii" or lower == "//haiii": 
-  
-   if startswith ("//"):
-    str = message.content.translate({ord(i): None for i in '//'})
-   elif startswith ("~"):
-    str = message.content.translate({ord(i): None for i in '~'})  
-   else:
-    await channel("Oh dear {} please recheck your command. If you are stuck check help menu.".format(mention))
-   await channel(f'{mention} {str},{random.choice(welcome)}')
-    
- 
- elif message.content == '//' or message.content == '~':
-  await channel("Oh dear {}. Use //help to to list commands.".format(mention))
-
- #if any(word in lower for word in sad):
- # await channel(f'{mention} {random.choice(encourage)}\n') 
- # await channel(f"{mention} {randomquotes()}")
- 
- await client.process_commands(message)
-"""
-
 @client.event 
 @commands.cooldown(2,60,commands.BucketType.user)
 async def on_command_error(ctx,error):
@@ -164,7 +131,7 @@ async def inspiretoday(ctx):
    pass
   await ctx.send(f"{ctx.message.author.mention} ***{todaysquotes()}***")
 
-"""
+"""  #remove this line to enable mirror command
 @client.command()
 @commands.cooldown(rate,time,commands.BucketType.user)
 
@@ -175,7 +142,7 @@ async def mirror(ctx,*,args):
 
  else: 
   await ctx.send(args)
-"""
+""" #remove this line to enable mirror command
 
 @client.command()
 @commands.cooldown(3,60,commands.BucketType.user)
