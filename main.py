@@ -124,5 +124,4 @@ for x in os.listdir('./cogs'):
 keep_alive()
 #load_dotenv()
 #dingding= os.environ['.env']
-client.run("ODcxODA4NDI2MjQwNTIwMjUz.YQgs3g.eK2gRLRR-uDbYonfzV80TrzPQZg") #mrbot
-#client.run("ODc5Njk5ODAzMzA1NTUzOTMw.YSTiSQ.T-eVOOOW_4iWqWowRWEpbEqF5k4") #maintanance
+client.run("<Token Here>")
