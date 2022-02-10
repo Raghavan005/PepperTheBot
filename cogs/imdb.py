@@ -26,7 +26,7 @@ class movie(Cog):
                 querystring = {"q":"{}".format(search)}
                 headers = {
                 'x-rapidapi-host': "imdb8.p.rapidapi.com",
-                'x-rapidapi-key': "c84d2547b6mshad464c105d1312ap1924acjsn76dd4c7120be"
+                'x-rapidapi-key': "" #Rapid api IMDB key
                 }
                 response = requests.request("GET", url, headers=headers, params=querystring)
 

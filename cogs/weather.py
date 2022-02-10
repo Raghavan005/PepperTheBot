@@ -25,7 +25,7 @@ class weather(Cog):
             await ctx.reply("Please provide a city to get weather report")
         else:
             loc = city
-            api = ['61efa4b9e592ffa98d8df76ce0da3a4f','f34a1fb82c344f95c666479bea986884','bf5026fdfc56d95fc10c014435f6c45f']
+            api = ["",""] #openweathermap api key
             url = 'http://api.openweathermap.org/data/2.5/weather?q={}&appid={}'.format(loc,random.choice(api))
             response = requests.get(url)
             data = response.json()
